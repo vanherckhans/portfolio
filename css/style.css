@@ -1,0 +1,268 @@
+body {
+  background: #c4c3c3; /* lichtgrijs */
+  color: #000;
+ 
+  font-family: 'Share Tech Mono', monospace;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+/* Header */
+.custom-header {
+  background: #56b3e9c5;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 5px #ffffff;
+  margin: 10px;
+}
+
+/* Navbar links standaard wit + zwarte schaduw */
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* wit */
+  text-shadow: 1px 1px 2px #000000; /* subtiele zwarte schaduw */
+  text-align: center;
+  width: 120px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Hover: zwart + witte glow */
+.navbar-nav .nav-link:hover {
+  color: #000000 !important;
+  text-shadow: 0 0 6px #ffffff;
+  transform: scale(1.1);
+}
+
+/* Actieve link: blijft wit + zwarte schaduw */
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 2px #000000, 0 0 6px #ffffff; /* zwart + witte glow */
+  transform: scale(1.1);
+}
+
+/* Sectie met blauw kader */
+.custom-section {
+  background: #56b3e9c5;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 5px #ffffff;
+  padding: 2rem;
+  color: #000;
+}
+.cv-title {
+  color: #000;
+  text-shadow: 0 0 3px #fff;
+}
+h1 {
+  color: #000;
+  text-shadow: 2px 2px 2px #ffffff;
+ 
+}
+h2 {
+  color: #000;
+  text-shadow: 2px 2px 2px #ffffff;
+ 
+}
+/* Afbeelding */
+.custom-img {
+  border-radius: 40px;
+  box-shadow: 0 0 15px 5px #ffffff;
+}
+body {
+  background-color: #d3d3d3;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.custom-header {
+  background-color: #56b3e9c5;
+  box-shadow: 0 0 15px #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+  text-shadow: 0 0 6px #fff;
+}
+
+.cv-section {
+  background-color: #56b3e9c5;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ffffff;
+  padding: 30px;
+}
+
+.cv-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px #00000033;
+  color: #000;
+}
+
+.table-glow {
+  background-color: #56b3e9c5;
+  box-shadow: 0 0 15px #ffffff;
+  border-radius: 8px;
+}
+
+.table-glow th, .table-glow td {
+  border: 2px solid #ffffff;
+  text-shadow: 1px 1px 2px #000;
+}
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.scroll-container img {
+  flex: 0 0 auto;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000055;
+  transition: transform 0.3s ease;
+}
+
+.scroll-container img:hover {
+  transform: scale(1.05);
+}
+.cv-title {
+  color: #000;
+  text-shadow: 0 0 3px #fff;
+}
+
+.cv-section {
+  background-color: #56b3e9c5;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ffffff;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+form input, form textarea {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #333;
+}
+.custom-footer {
+  background: #56b3e9c5;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 5px #ffffff;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-socials a {
+  color: #ffffff;
+  margin-left: 12px;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.footer-socials a:hover {
+  color: #000000;
+  text-shadow: 0 0 6px #ffffff;
+  transform: scale(1.2);
+}
+
+/* Footer */
+.custom-footer {
+  background: #56b3e9c5;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 5px #ffffff;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar-brand span {
+  color: #000;
+  text-shadow: 0 0 3px #fff;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-left a:hover {
+  color: #000000;
+  text-shadow: 0 0 6px #ffffff;
+  transform: scale(1.2);
+}
+
+.footer-socials a {
+  color: #ffffff;
+  margin-left: 12px;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.footer-socials a:hover {
+  color: #000000;
+  text-shadow: 0 0 6px #ffffff;
+  transform: scale(1.2);
+}
+
+form {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  #confirmation {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    text-shadow: 0 0 3px #fff;
+  }
+}
